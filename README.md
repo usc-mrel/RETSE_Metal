@@ -8,9 +8,8 @@ This repository contains MATLAB code to correct gradient non-linearity (GNL) and
 
 ## Setup
 
-### 1. Required Software Installation
+### 1. Required Installation
 
-You must have the following software installed and accessible via MATLAB:
 - **[BART (Berkeley Advanced Reconstruction Toolbox)](https://mrirecon.github.io/bart/)**  
 
 - **[ISMRMRD (MRI raw data format)](https://ismrmrd.readthedocs.io/en/latest/)**  
