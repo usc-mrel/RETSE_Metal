@@ -66,9 +66,11 @@ bart_path    = 'path_of_your_bart_installation';
 ```
 
 ## Output
-.json are the configuration files that are generated in the pipeline, saved in `\raw` folder.
+`.json` are the configuration files that are generated in the pipeline, saved in `\raw` folder.
 
-All the outputs will be saved as cfl files in `\results` folder that is generated automatically.
+Estimated off-resonance displacement maps [meter] are saved under `offres` .
+
+Corrected image per slice using proposed phase-constrained SENSE method are saved (`img_typ1_xxx.cfl`) in `\result\dualrecon_pcs` folder that is generated automatically; `\result\meas_xxx` folder contains non-corrected, corrected image for each direction's data. 
 
 After ```show_results```, ```img_recon``` has 5 multi-slice TSE images, including Dir.1 TSE, corrected Dir.1 TSE, Dir.2 TSE, corrected Dir.2 TSE, corrected image from PES-SENSE.
 
