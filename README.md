@@ -4,7 +4,7 @@ This repository contains the code and datasets for "Distortion correction in TSE
 Bochao Li, University of Southern California, July 2025.
 ## Distortion Correction Pipeline for Cartesian MRI Data
 
-This repository contains MATLAB code to correct gradient non-linearity (GNL) and off-resonance distortion in Cartesian MRI acquisitions using dual frequency-encoding techniques. It includes tools for image reconstruction, off-resonance displacement estimation, and phase-constrained SENSE based joint reconstruction.
+This repository contains MATLAB code to correct gradient non-linearity (GNL) and off-resonance distortion in Cartesian MRI acquisitions using dual frequency-encoding techniques. It includes tools for image reconstruction, [off-resonance displacement estimation](https://data.mendeley.com/datasets/2nbpddxd8f/1), and phase-constrained SENSE based joint reconstruction.
 
 ## Setup
 
@@ -66,4 +66,8 @@ bart_path    = 'path_of_your_bart_installation';
 ```
 
 ## Output
+All the outputs will be saved as cfl files.
+
 After ```show_results```, ```img_recon``` has 5 multi-slice TSE images, including Dir.1 TSE, corrected Dir.1 TSE, Dir.2 TSE, corrected Dir.2 TSE, corrected image from PES-SENSE.
+
+## References and Acknowledgements
