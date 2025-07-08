@@ -40,7 +40,7 @@ A sample dataset is publicly available on Zenodo:
 
 After downloading the dataset, organize it into the following directory structure:
 ```
-/raw/
+\raw\
   |- PE_RL\
     |- <PE_RL_data>.dat
   |- PE_LR\
