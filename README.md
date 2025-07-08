@@ -66,4 +66,4 @@ bart_path    = 'path_of_your_bart_installation';
 ```
 
 ## Output
-After ```show_results```, ```img_recon``` has 5 multi-slice TSE images, including Dir.1 TSE, corrected Dir.1 TSE, Dir.2 TSE, corrected Dir.2 TSE, corrected image from PES-SENSE
+After ```show_results```, ```img_recon``` has 5 multi-slice TSE images, including Dir.1 TSE, corrected Dir.1 TSE, Dir.2 TSE, corrected Dir.2 TSE, corrected image from PES-SENSE.
