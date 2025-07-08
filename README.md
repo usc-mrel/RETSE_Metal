@@ -15,7 +15,7 @@ You must have the following software installed and accessible via MATLAB:
 
 - **[ISMRMRD (MRI raw data format)](https://ismrmrd.readthedocs.io/en/latest/)**  
 
-
+### 2. Required third-party dependencies
 Before running the pipeline, make sure the following third-party dependencies are downloaded and placed under the directory: **/Helper_Functions/thirdparty/** (Please create it for first use)
 1. **BART (MATLAB interface)**  
    https://github.com/mrirecon/bart/tree/master/matlab
