@@ -65,7 +65,7 @@ ismrmrd_path = 'path_of_your_ismrmrd_installation'; (not BART MATLAB codes under
 bart_path    = 'path_of_your_bart_installation';
 ```
 
-## Output
+## Outputs
 - `.json` are the configuration files that are generated in the pipeline, saved in `\raw` folder.
 
 - Estimated off-resonance displacement maps in meter are saved under `offres` .
