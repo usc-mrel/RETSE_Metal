@@ -5,7 +5,7 @@ This repository contains MATLAB code to correct gradient non-linearity (GNL) and
 
 ## Prerequisites
 
-Before running the pipeline, make sure the following third-party dependencies are downloaded and placed under the directory: **/Helper_Functions/thirdparty/**
+Before running the pipeline, make sure the following third-party dependencies are downloaded and placed under the directory: **/Helper_Functions/thirdparty/** (Please create it for first use)
 1. **BART (MATLAB interface)**  
    https://github.com/mrirecon/bart/tree/master/matlab
 
