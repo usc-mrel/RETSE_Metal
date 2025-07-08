@@ -42,7 +42,7 @@ To run this pipeline, you need reverse-encoding Turbo Spin Echo (TSE) raw MRI da
 
 A sample dataset (THA, rBW = 150 Hz/Px) is publicly available on Zenodo:
 
-**DOI:** [10.5281/zenodo.15833570](https://doi.org/10.5281/zenodo.15833570)
+**DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15833570.svg)](https://doi.org/10.5281/zenodo.15833570)
 
 ### Folder Setup
 
