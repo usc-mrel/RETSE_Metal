@@ -41,10 +41,10 @@ A sample dataset is publicly available on Zenodo:
 After downloading the dataset, organize it into the following directory structure:
 ```
 /raw/
-  |- `PE_RL/` (Frequency-encoding: Dir.1)\
-    |- `<PE_RL_data>.dat`
-  |- `PE_LR/` (Frequency-encoding: Dir.2)\
-    |- `<PE_LR_data>.dat`
+  |- PE_RL\
+    |- <PE_RL_data>.dat
+  |- PE_LR\
+    |- <PE_LR_data>.dat
 ```
 - Place the `.dat` file from each acquisition direction in the respective folder.
 - Filenames can be arbitrary, but must match what your scripts are configured to load.
