@@ -63,3 +63,7 @@ Before running `main_recon.m`, please update the following variables at the top 
 ```matlab
 ismrmrd_path = 'path_of_your_ismrmrd_installation';
 bart_path    = 'path_of_your_bart_installation';
+```
+
+## Output
+After ```show_results```, ```img_recon``` includes Dir.1 TSE, corrected Dir.1 TSE, Dir.2 TSE, corrected Dir.2 TSE, corrected image from PES-SENSE
