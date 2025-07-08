@@ -1,5 +1,5 @@
 # RETSE_Metal
-This repository contains the code and datasets for "Distortion correction in TSE near titanium implants at 0.55T using reversed frequency-encoding and model-based reconstruction", by Bochao Li, Nam G. Lee, Daehyun Yoon, KŸbra Keskin, Alexander R. Toews, Jay Acharya, Jordan S. Gross, Brian A. Hargreaves, Krishna S. Nayak.
+This repository contains the code and datasets for "Distortion correction in TSE near titanium implants at 0.55T using reversed frequency-encoding and model-based reconstruction", by Bochao Li, Nam G. Lee, Daehyun Yoon, Kubra Keskin, Alexander R. Toews, Jay Acharya, Jordan S. Gross, Brian A. Hargreaves, Krishna S. Nayak.
 
 Bochao Li, University of Southern California, July 2025.
 ## Distortion Correction Pipeline for Cartesian MRI Data
