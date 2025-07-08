@@ -47,7 +47,6 @@ After downloading the dataset, organize it into the following directory structur
     |- <PE_LR_data>.dat
 ```
 - Place the `.dat` file from each acquisition direction in the respective folder.
-- Filenames can be arbitrary, but must match what your scripts are configured to load.
 
 > **Note:** These `.dat` files are Siemens raw TWIX files. You will convert them to ISMRMRD format as part of the pipeline using the provided `auto_convert_twix_to_ismrmrd()` function.
 
