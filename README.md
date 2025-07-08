@@ -4,7 +4,7 @@ This repository contains the code and datasets for "Distortion correction in TSE
 Bochao Li, University of Southern California, July 2025.
 ## Distortion Correction Pipeline for Cartesian MRI Data
 
-This repository contains MATLAB code to correct gradient non-linearity (GNL) and off-resonance distortion in Cartesian MRI acquisitions using dual frequency-encoding techniques. It includes tools for image reconstruction, B0 field estimation using the Mullen method, and PEC-SENSE based joint reconstruction.
+This repository contains MATLAB code to correct gradient non-linearity (GNL) and off-resonance distortion in Cartesian MRI acquisitions using dual frequency-encoding techniques. It includes tools for image reconstruction, off-resonance displacement estimation, and phase-constrained SENSE based joint reconstruction.
 
 ## Prerequisites
 
@@ -27,6 +27,30 @@ Before running the pipeline, make sure the following third-party dependencies ar
 - `Helper_Functions/` — Contains custom MATLAB functions and third-party dependencies.
 - `results/` — Stores output images and figures (not included by default).
 - `data/` — Directory for raw TWIX data (not included).
+
+## Data
+
+To run this pipeline, you need reverse-encoding Turbo Spin Echo (TSE) raw MRI data acquired in two frequency-encoding directions: **PE_RL** (Right-to-Left) and **PE_LR** (Left-to-Right).
+
+A sample dataset is publicly available on Zenodo:
+
+**DOI:** [10.5281/zenodo.15833570](https://doi.org/10.5281/zenodo.15833570)
+
+### Folder Setup
+
+After downloading the dataset, organize it into the following directory structure:
+
+- `/raw/`
+  - `PE_RL/` (Frequency-encoding: Right to Left)
+    - `<your_RL_data>.dat`
+  - `PE_LR/` (Frequency-encoding: Left to Right)
+    - `<your_LR_data>.dat`
+
+- Place the `.dat` file from each acquisition direction in the respective folder.
+- Filenames can be arbitrary, but must match what your scripts are configured to load.
+
+> **Note:** These `.dat` files are Siemens raw TWIX files. You will convert them to ISMRMRD format as part of the pipeline using the provided `auto_convert_twix_to_ismrmrd()` function.
+
 
 ## How to Run
 
