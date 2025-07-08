@@ -1,5 +1,5 @@
 # RETSE_Metal
-This repository contains the code and datasets for "Distortion correction in TSE near titanium implants at 0.55T using reversed frequency-encoding and model-based reconstruction", by Bochao Li, Nam G. Lee, Daehyun Yoon, KÃ¼bra Keskin, Alexander R. Toews, Jay Acharya, Jordan S. Gross, Brian A. Hargreaves, Krishna S. Nayak.
+This repository contains the code and datasets for "Distortion correction in TSE near titanium implants at 0.55T using reversed frequency-encoding and model-based reconstruction", by Bochao Li, Nam G. Lee, Daehyun Yoon, KŸbra Keskin, Alexander R. Toews, Jay Acharya, Jordan S. Gross, Brian A. Hargreaves, Krishna S. Nayak.
 
 Bochao Li, University of Southern California, July 2025.
 ## Distortion Correction Pipeline for Cartesian MRI Data
@@ -30,10 +30,10 @@ Before running the pipeline, make sure the following third-party dependencies ar
 
 ## Folder Structure
 
-- `main_recon.m` â€” Main entry point for the reconstruction pipeline.
-- `Helper_Functions/` â€” Contains custom MATLAB functions and third-party dependencies.
-- `results/` â€” Stores output images and figures (not included by default).
-- `data/` â€” Directory for raw TWIX data (not included).
+- `main_recon.m` Ñ Main entry point for the reconstruction pipeline.
+- `Helper_Functions/` Ñ Contains custom MATLAB functions and third-party dependencies.
+- `results/` Ñ Stores output images and figures (not included by default).
+- `data/` Ñ Directory for raw TWIX data (not included).
 
 ## Data
 
@@ -66,4 +66,4 @@ bart_path    = 'path_of_your_bart_installation';
 ```
 
 ## Output
-After ```show_results```, ```img_recon``` includes Dir.1 TSE, corrected Dir.1 TSE, Dir.2 TSE, corrected Dir.2 TSE, corrected image from PES-SENSE
+After ```show_results```, ```img_recon``` has 5 multi-slice TSE images, including Dir.1 TSE, corrected Dir.1 TSE, Dir.2 TSE, corrected Dir.2 TSE, corrected image from PES-SENSE
