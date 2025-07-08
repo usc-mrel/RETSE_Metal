@@ -61,7 +61,7 @@ After downloading the dataset, please organize it into the following directory s
 Before running `main_recon.m`, please update the following variables at the top of the script:
 
 ```matlab
-ismrmrd_path = 'path_of_your_ismrmrd_installation'; (not BART MATLAB codes under `\Helpfer_Functions`)
+ismrmrd_path = 'path_of_your_ismrmrd_installation'; (not BART MATLAB codes under \Helpfer_Functions)
 bart_path    = 'path_of_your_bart_installation';
 ```
 
