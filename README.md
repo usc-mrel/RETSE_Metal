@@ -30,7 +30,7 @@ Before running the pipeline, make sure the following third-party dependencies ar
 
 ## Folder Structure
 
-- `main_recon.m` Main entry point for the reconstruction pipeline.
+- `main_recon.m`: Main entry point for the reconstruction pipeline.
 - `Helper_Functions/`: Contains custom MATLAB functions and third-party dependencies.
 - `results/`: Stores output images and figures (not included by default).
 - `data/`: Directory for raw TWIX data (not included here).
@@ -43,7 +43,7 @@ A sample dataset (THA, rBW = 150 Hz/Px) is publicly available on Zenodo: [![DOI]
 
 ### Folder Setup
 
-After downloading the dataset, organize it into the following directory structure:
+After downloading the dataset, please organize it into the following directory structure manually:
 ```
 \raw\
   |- PE_RL\
