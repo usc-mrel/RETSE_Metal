@@ -32,7 +32,7 @@ Before running the pipeline, make sure the following third-party dependencies ar
 
 To run this pipeline, you need reverse-encoding Turbo Spin Echo (TSE) raw MRI data acquired in two frequency-encoding directions: **PE_RL** (Right-to-Left) and **PE_LR** (Left-to-Right).
 
-A sample dataset is publicly available on Zenodo:
+A sample dataset (THA, rBW = 150 Hz/Px) is publicly available on Zenodo:
 
 **DOI:** [10.5281/zenodo.15833570](https://doi.org/10.5281/zenodo.15833570)
 
