@@ -30,7 +30,7 @@ Before running the pipeline, make sure the following third-party dependencies ar
 
 ## Folder Structure
 
-- `main_recon.m`: Main entry point for the reconstruction pipeline.
+- `main_recon.m`: Main entry point for the reconstruction pipeline with automatic procedures.
 - `Helper_Functions/`: Contains custom MATLAB functions and third-party dependencies.
 - `results/`: Stores output images and figures (not included by default).
 - `data/`: Directory for raw TWIX data (not included here).
@@ -53,7 +53,7 @@ After downloading the dataset, please organize it into the following directory s
 ```
 - Place the `.dat` file from each acquisition direction in the respective folder.
 
-> **Note:** These `.dat` files are Siemens raw TWIX files. You will convert them to ISMRMRD format as part of the pipeline using the provided `auto_convert_twix_to_ismrmrd()` function.
+> **Note:** These `.dat` files are Siemens raw TWIX files. You will convert them to ISMRMRD format as part of the pipeline using the provided `auto_convert_twix_to_ismrmrd()` function when running `main_recon.m`.
 
 
 ## How to Run
