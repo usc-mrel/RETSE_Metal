@@ -71,3 +71,4 @@ All the outputs will be saved as cfl files.
 After ```show_results```, ```img_recon``` has 5 multi-slice TSE images, including Dir.1 TSE, corrected Dir.1 TSE, Dir.2 TSE, corrected Dir.2 TSE, corrected image from PES-SENSE.
 
 ## References and Acknowledgements
+Mullen M, Garwood M. Dual polarity encoded MRI using high bandwidth radiofrequency pulses for robust imaging with large field inhomogeneity. Magn Reson Med. 2021;86(3):1271-1283. doi:10.1002/mrm.28771
