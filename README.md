@@ -1,7 +1,7 @@
 # RETSE_Metal
 This repository contains the code and datasets for "Distortion correction in TSE near titanium implants at 0.55T using reversed frequency-encoding and model-based reconstruction", by Bochao Li, Nam G. Lee, Daehyun Yoon, Kubra Keskin, Alexander R. Toews, Jay Acharya, Jordan S. Gross, Brian A. Hargreaves, Krishna S. Nayak.
 
-**Bochao Li** Ð [bochaoli@usc.edu](mailto:bochaoli@usc.edu), University of Southern California, July 2025.
+[Bochao Li](mailto:bochaoli@usc.edu), University of Southern California, July 2025.
 ## Distortion Correction Pipeline for Cartesian MRI Data
 
 This repository contains MATLAB code to correct gradient non-linearity (GNL) and off-resonance distortion in Cartesian MRI acquisitions using dual frequency-encoding techniques. It includes tools for image reconstruction, [off-resonance displacement estimation](https://data.mendeley.com/datasets/2nbpddxd8f/1), and phase-constrained SENSE based joint reconstruction.
