@@ -76,4 +76,4 @@ bart_path    = 'path_of_your_bart_installation';
 
 ## References and Acknowledgements
 1. Mullen M, Garwood M. Dual polarity encoded MRI using high bandwidth radiofrequency pulses for robust imaging with large field inhomogeneity. Magn Reson Med. 2021;86(3):1271-1283. doi:10.1002/mrm.28771
-2. Tao, Shengzhen et al. ÒIntegrated image reconstruction and gradient nonlinearity correction.Ó Magnetic resonance in medicine vol. 74,4 (2015): 1019-31. doi:10.1002/mrm.25487
+2. Tao S, Trzasko JD, Shu Y, Huston J 3rd, Bernstein MA. Integrated image reconstruction and gradient nonlinearity correction. Magn Reson Med. 2015;74(4):1019-1031. doi:10.1002/mrm.25487
