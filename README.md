@@ -1,4 +1,7 @@
 # RETSE_Metal
+This repository contains the code and datasets for "ADistortion correction in TSE near titanium implants at 0.55T using reversed frequency-encoding and model-based reconstruction", by Bochao Li1, Nam G. Lee, Daehyun Yoon, Kübra Keskin, Alexander R. Toews, Jay Acharya, Jordan S. Gross, Brian A. Hargreaves, Krishna S. Nayak.
+
+Bahadir Alp Barlas, University of Southern California, May 2025.
 ## Distortion Correction Pipeline for Cartesian MRI Data
 
 This repository contains MATLAB code to correct gradient non-linearity (GNL) and off-resonance distortion in Cartesian MRI acquisitions using dual frequency-encoding techniques. It includes tools for image reconstruction, B0 field estimation using the Mullen method, and PEC-SENSE based joint reconstruction.
@@ -30,5 +33,5 @@ Before running the pipeline, make sure the following third-party dependencies ar
 Before running `main_recon.m`, please update the following variables at the top of the script:
 
 ```matlab
-ismrmrd_path = 'your_ismrmrd_install';
-bart_path    = 'your_bart_install';
+ismrmrd_path = 'path_of_your_ismrmrd_installation';
+bart_path    = 'path_of_your_bart_installation';
