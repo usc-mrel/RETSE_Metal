@@ -30,10 +30,10 @@ Before running the pipeline, make sure the following third-party dependencies ar
 
 ## Folder Structure
 
-- `main_recon.m` Ñ Main entry point for the reconstruction pipeline.
-- `Helper_Functions/` Ñ Contains custom MATLAB functions and third-party dependencies.
-- `results/` Ñ Stores output images and figures (not included by default).
-- `data/` Ñ Directory for raw TWIX data (not included).
+- `main_recon.m` Main entry point for the reconstruction pipeline.
+- `Helper_Functions/`: Contains custom MATLAB functions and third-party dependencies.
+- `results/`: Stores output images and figures (not included by default).
+- `data/`: Directory for raw TWIX data (not included here).
 
 ## Data
 
