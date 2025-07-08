@@ -6,7 +6,15 @@ Bochao Li, University of Southern California, July 2025.
 
 This repository contains MATLAB code to correct gradient non-linearity (GNL) and off-resonance distortion in Cartesian MRI acquisitions using dual frequency-encoding techniques. It includes tools for image reconstruction, off-resonance displacement estimation, and phase-constrained SENSE based joint reconstruction.
 
-## Prerequisites
+## Setup
+
+### 1. Required Software Installation
+
+You must have the following software installed and accessible via MATLAB:
+- **[BART (Berkeley Advanced Reconstruction Toolbox)](https://mrirecon.github.io/bart/)**  
+
+- **ISMRMRD (MRI raw data format)**  
+
 
 Before running the pipeline, make sure the following third-party dependencies are downloaded and placed under the directory: **/Helper_Functions/thirdparty/** (Please create it for first use)
 1. **BART (MATLAB interface)**  
