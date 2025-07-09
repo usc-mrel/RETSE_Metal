@@ -21,7 +21,7 @@ Before running the pipeline, make sure the following third-party dependencies ar
 
 2. **FINUFFT**  
    https://github.com/flatironinstitute/finufft
-- Please install it correctly according to the [online document](https://finufft.readthedocs.io/en/latest/install.html#install)
+- Please install it correctly according to the [online document](https://finufft.readthedocs.io/en/latest/install.html#install) on your system.
 
 3. **mapVBVD**  
    https://github.com/pehses/mapVBVD
