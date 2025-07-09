@@ -5,9 +5,9 @@
 close all; clear; clc
 
 %% Set source directories
-ismrmrd_path   = '/server/home/bli/ismrmrd';
+ismrmrd_path   = '/server/home/bli/ismrmrd'; % Set your ismrmrd path
+bart_path = '/server/home/btasdelen/bart';   % Set your bart path
 functions_path = './Helper_Functions';
-bart_path = '/server/home/btasdelen/bart';
 
 %% Add source directories to search path
 addpath(genpath(ismrmrd_path));
