@@ -13,7 +13,7 @@ functions_path = './Helper_Functions';
 addpath(genpath(ismrmrd_path));
 addpath(genpath(functions_path));
 
-%% Step 1: Generate and Define JSON files (Mullen B0 correction disabled)
+%% Step 1: Generate and Define JSON files (only GNL correction is on)
 auto_generate_json( ...
     'offres_correction_flag', [0 0], ...
     'offres_sign', [1,-1], ...
@@ -36,7 +36,7 @@ for json_number = 1:nr_json_files
     demo_step4_cartesian_gnl_recon;
 end
 
-%% Step 4: Estimate f displacement map using Mullen-based method (Loading cfl file)
+%% Step 4: Estimate off-resonance displacement map (Saved in cfl file)
 opts = struct();
 opts.epsilon = 5e-6;
 opts.maxIter = 800;
@@ -49,7 +49,7 @@ opts.spacing = [4,4,1];
 
 calculate_offres(opts);
 
-%% Step 5: Re-generate JSON with TOPUP (Mullen) enabled
+%% Step 5: Re-generate JSON with off-resonance correction enabled
 auto_generate_json( ...
     'offres_correction_flag', [1 1], ...
     'offres_sign', [1,-1], ...
