@@ -36,17 +36,17 @@ Before running the pipeline, make sure the following third-party dependencies ar
 - `main_recon.m`: Main entry point for the reconstruction pipeline with automatic procedures.
 - `Helper_Functions/`: Contains custom MATLAB functions and third-party dependencies.
 - `results/`: Stores output images and figures (not included by default).
-- `data/`: Directory for raw TWIX data (not included here).
+- `raw/`: Directory for raw TWIX data (not included here).
 
 ## Data
 
 To run this pipeline, you need reverse-encoding Turbo Spin Echo (TSE) raw MRI data acquired in two frequency-encoding directions data.
 
-A sample dataset of ISMRMRD format (THA, rBW = 150 Hz/Px), including raw data and noise data, is publicly available on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14752389.svg)](https://doi.org/10.5281/zenodo.14752389)
+A sample dataset of ISMRMRD format (THA, rBW = 150 Hz/Px) is publicly available on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14752389.svg)](https://doi.org/10.5281/zenodo.14752389)
 
 ### Folder Setup
 
-After downloading the dataset, please organize it into the following directory structure manually:
+After downloading the dataset, please unzip it and copy to the code folder, then you can get the following directory structure manually:
 ```
 \raw\
   |- PE_RL\
