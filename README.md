@@ -42,7 +42,7 @@ Before running the pipeline, make sure the following third-party dependencies ar
 
 To run this pipeline, you need reverse-encoding Turbo Spin Echo (TSE) raw MRI data acquired in two frequency-encoding directions data.
 
-A sample dataset of ISMRMRD format (THA, rBW = 150 Hz/Px) is publicly available on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16058941.svg)](https://doi.org/10.5281/zenodo.16058941)
+A sample dataset (THA, rBW = 150 Hz/Px) is publicly available on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16059763.svg)](https://doi.org/10.5281/zenodo.16059763)
 
 ### Folder Setup
 
