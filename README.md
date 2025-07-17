@@ -8,13 +8,15 @@ This repository contains MATLAB code to correct gradient non-linearity (GNL) and
 
 ## Setup
 
-### 1. Required Installation
+### 1. git clone https://github.com/usc-mrel/RETSE_Metal.git
+
+### 2. Required Installation
 
 - **[BART (Berkeley Advanced Reconstruction Toolbox)](https://mrirecon.github.io/bart/)**  
 
 - **[ISMRMRD (MRI raw data format)](https://ismrmrd.readthedocs.io/en/latest/)**  
 
-### 2. Required third-party dependencies
+### 3. Required third-party dependencies
 Before running the pipeline, make sure the following third-party dependencies are downloaded and placed under the directory: **/Helper_Functions/thirdparty/** (Please create it for first use)
 1. **BART (MATLAB interface)**  
    https://github.com/mrirecon/bart/tree/master/matlab
