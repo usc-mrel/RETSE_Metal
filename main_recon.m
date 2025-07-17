@@ -6,6 +6,7 @@ restoredefaultpath;
 close all; clear; clc
 
 %% Set source directories
+ismrmrd_path   = ''; % Set your ismrmrd path
 bart_path = '';   % Set your bart path
 functions_path = './Helper_Functions';
 
